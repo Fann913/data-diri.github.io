@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Section Tentang Saya */
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 900px;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+
+        .about-section:hover {
+            transform: scale(1.02);
+        }
+
+        .profile-photo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-content {
+            flex: 2;
+            padding-left: 30px;
+        }
+
+        .about-content h2 {
+            font-size: 2em;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .about-content .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-badge {
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .skill-badge:hover {
+            background-color: #0056b3;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .social-links{
+            padding: 30px;
+        }
+        .home1{
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #68f386;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
+    </style>
+</head>
+<body>
+    <!-- Bagian Tentang Saya -->
+    <section class="about-section">
+        <div class="profile-photo">
+            <img src="ipan.jpeg" alt="Foto Profil">
+        </div>
+        <div class="about-content">
+            <h2>Biodata</h2>
+                    <div class="social-links">
+                        <a href="datadiriketerangan.html" class="btn">Data diri</a><br>
+                        <a href="seputar anak kecil.html" class="btn">Seputar Waifu</a><br>
+                        <a href="https://www.instagram.com/fannxdz_/profilecard/?igsh=YjFyOWwybXRoa2Jk" class="btn">Media sosial</a><br>
+                        <a href="data diri keren.html" class="home1">Home</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+</body>
+</html>

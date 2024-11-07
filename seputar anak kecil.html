@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body styling */
+        body {
+            background: linear-gradient(to bottom, #bd2727, #e6e949, #50e45c);
+            color: #000000;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            
+        }
+
+        /* Container styling */
+        .portfolio-container {
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Profile image */
+        .profile-image {
+            margin-bottom: 20px;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4CAF50;
+        }
+
+        /* Title and description styling */
+        h1 {
+            font-size: 32px;
+            margin: 15px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Projects styling */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project1 {
+            background-image: url(bububb\ top\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project2{
+            background-image: url(red\ ruby.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project3{
+            background-image: url(tatsumaki\ ril\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project4{
+            background-image: url(Mikyung\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project5{
+            background-image: url(vermeil\ wifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project6{
+            background-image: url(sugusawa\ yakati\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project7{
+            background-image: url(Rio\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project8{
+            background-image: url(aphrodite\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project9{
+            background-image: url(Mifuyu\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project10{
+            background-image: url(elaina\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project11{
+            background-image: url(mikasa\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project12{
+            background-image: url(fubuki\ waifu.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+        .project13{
+            background-image: url(ragatha.jpeg);
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-size: cover; /* Mengisi seluruh area */
+            background-position: center; /* Memposisikan di tengah */
+            height: 215px;
+            text-align: justify;
+            color: #fff;
+        }
+
+
+        .project h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 14px;
+        }
+        .contact-section {
+            background-color: #47a0ff;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .contact-section a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #68f386;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .kembali{
+            color: #fff;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="portfolio-container">
+        <div class="profile-image">
+            <img src="ipan dan bubub.jpeg" alt="Foto Profil">
+        </div>
+        
+        <h1>Irfan Rifai</h1>
+        <h2>Waifu</h2>
+        <p>
+            Berikut adalah Top waifu saya dari segala segi dan jenis. Mulai dari anak kecil sampai yang bermodelan semangka. apakah waifu kalian termasuk ke dalam daftar TOP waifu?
+        </p>
+
+        <div class="projects">
+            <h2>TOP 14</h2>
+
+            <div class="project1">
+                <h3>Top 1</h3>
+                <p>My girl.</p>
+            </div>
+
+            <div class="project2">
+                <h3>Top 2</h3>
+                <p>Red Ruby.</p>
+            </div>
+
+            <div class="project3">
+                <h3>Top 3</h3>
+                <p>Tatsumaki.</p>
+            </div>
+
+            <div class="project4">
+                <h3>Top 4</h3>
+                <p>Mikyung.</p>
+            </div>
+
+            <div class="project5">
+                <h3>Top 5</h3>
+                <p>Vermeil.</p>
+            </div>
+
+        <div class="project6">
+            <h3>Top 6</h3>
+            <p>Sugisawa Yukira.</p>
+        </div>
+
+        <div class="project7">
+            <h3>Top 7</h3>
+            <p>Tsukatsuki Rio.</p>
+        </div>
+
+        <div class="project8">
+            <h3>Top 8</h3>
+            <p>Aphrodite.</p>
+        </div>
+
+        <div class="project9">
+            <h3>Top 9</h3>
+            <p>Mifuyu Yukino.</p>
+        </div>
+
+        <div class="project10">
+                <h3>Top 10</h3>
+                <p>Elaina.</p>
+            </div>
+            <div class="project11">
+                <h3>Top 11</h3>
+                <p>Mikasa.</p>
+            </div>
+            <div class="project12">
+                <h3>Top 12</h3>
+                <p>Fubuki.</p>
+            </div>
+            <div class="project13">
+                <h3>Top 13</h3>
+                <p>Ragatha.</p>
+            </div>
+    </div>
+        <section class="contact-section">
+            <h2 class="kembali">Kembali ke menu utama</h2>
+            <a href="data diri keren.html">Home</a>
+            <a href="biodatadiri.html">Biodata</a>
+    </div>
+</body>
+</html>

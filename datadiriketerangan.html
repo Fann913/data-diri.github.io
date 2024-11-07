@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .skills{
+            display: inline-block;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        /* Section Tentang Saya */
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 900px;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+
+        .about-section:hover {
+            transform: scale(1.02);
+        }
+
+        .profile-photo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-content {
+            flex: 2;
+            padding-left: 30px;
+        }
+
+        .about-content h2 {
+            font-size: 2em;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .about-content .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-badge {
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .skill-badge:hover {
+            background-color: #0056b3;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .social-links{
+            padding: 30px;
+        }
+        @media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
+    </style>
+</head>
+<body>
+    <!-- Bagian Tentang Saya -->
+    <section class="about-section">
+        <div class="profile-photo">
+            <img src="ipan.jpeg" alt="Foto Profil">
+        </div>
+        <div class="about-content">
+                    <div class="social-links">
+                        <div class="kanan">
+                            <h2>Data diri</h2>
+                            <center><table>
+                                <tr>
+                                    <th>Nama</th>
+                                    <th>:</th>
+                                    <td>Irfan Rifai</td>
+                                </tr>
+                                <tr>
+                                    <th>Tempat</th>
+                                    <th>:</th>
+                                    <td>Jakarta Timur</td>
+                                </tr>
+                                <tr>
+                                    <th>Tgl.Lahir</th>
+                                    <th>:</th>
+                                    <td>17 juli 2007</td>
+                                </tr>
+                                <tr>
+                                    <th>Agama</th>
+                                    <th>:</th>
+                                    <td>Islam</td>
+                                </tr>
+                                <tr>
+                                    <th>Alamat</th>
+                                    <th>:</th>
+                                    <td>Jl. Pisangan Baru 111 RT/RW:006 NO.14</td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <th>:</th>
+                                    <td>teamghi9@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th>No.HP</th>
+                                    <th>:</th>
+                                    <td>0895402557936</td>
+                                </tr>
+                            </table></center><br>
+                            <div class="skills">
+                                <a href="biodatadiri.html" class="btn">Biodata</a>
+                            </div>
+                        </div>
+                    </div>		
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+</body>
+</html>
